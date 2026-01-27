@@ -1,0 +1,23 @@
+print('Sou seu Computador...')
+print('Acabei de pensar em um número entre 0 a 10.')
+print('Será que você consegue adivinhar qual foi?')
+
+from random import randint #Importando o sorteador de números.
+num = randint(1, 11)
+acertou = False
+tentativas = 0
+
+while not acertou: #Enquanto NÃO acertou. obs: acertou = False
+    jogador = int(input('Qual é o seu Palpite? '))
+    tentativas += 1
+
+    if jogador == num:
+        acertou = True
+    
+    else:
+        if jogador > num:
+            print('Menos... Tente mais uma vez.')    
+        elif jogador < num:
+            print('Mais... Tente mais uma vez.')
+
+print('Acertou com {} tentativas. Parabéns!'.format(tentativas))
