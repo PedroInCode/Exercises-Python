@@ -27,3 +27,5 @@ print(c) #mostra as duas Tuplas juntas
 print(len(c)) #Mostra a quantidade de elementos dentro da Tupla.
 print(c.count(5)) #Quantas vezes o 5 aparece dentro da Tupla c?
 print(c.index(2)) #Em que posição está o 5?
+
+print('Ta dando ruim')
