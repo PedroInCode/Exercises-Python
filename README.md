@@ -28,3 +28,11 @@ Abaixo estão alguns dos principais tópicos e estruturas que você encontrará 
 * **Estruturas de Dados:** Listas (`list`), Tuplas (`tuple`), Dicionários (`dict`) e Conjuntos (`set`).
 * **Manipulação de Arquivos:** Leitura e escrita em arquivos de texto.
 * **Mini-Projetos:** Jogos simples (Pedra, Papel ou Tesoura, Adivinhação), calculadoras e resolvedores de problemas.
+
+---
+
+### 🏆 Principais Desafios
+Aqui estão alguns exercícios que destaco pela complexidade:
+- **Jokenpô:** Prática de condicionais e biblioteca `random`.
+- **Analisador de Textos:** Manipulação de strings.
+- **Validando Expressões:** Uso de listas e pilhas.
